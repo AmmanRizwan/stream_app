@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply !bg-bgBlack !text-white font-['Inter'];
+  }
+}
+
+@layer utilities {
+  .card-size {
+    @apply shadow-xl rounded-xl cursor-pointer hover:scale-105 transition-all duration-500 p-1 select-none;
+  }
+}
+
+@layer utilities {
+  .large-card {
+    @apply flex flex-col justify-center items-center my-2;
+  }
+}
