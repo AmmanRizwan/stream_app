@@ -558,6 +558,10 @@ const MovieContextProvider = (props) => {
       name: "Only on IAStream",
       link: "/onlyiastream",
     },
+    {
+      name: "Home",
+      link: "/home",
+    },
   ]
   
   const [CardPopUp, setCardPopUp] = useState(false);
