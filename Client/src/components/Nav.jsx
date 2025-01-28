@@ -9,7 +9,7 @@ import Button from "./Button";
 const Nav = () => {
   const location = useLocation();
   return (
-    <div className="fixed backdrop-blur top-0 z-[101] w-full sm:p-6 px-8 flex justify-between items-center sm:gap-4">
+    <div className="relative backdrop-blur top-0 z-[101] w-full sm:p-6 px-8 flex justify-between items-center sm:gap-4">
           {
             location.pathname === '/' ?
             <div className="my-4 sm:my-0">
